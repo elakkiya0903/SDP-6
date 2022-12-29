@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pages</title>
+    <style>
+        body{text-align:center;}
+        table, th, td {border: 1px solid red; align:center;}
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #courseList{display: inline-block;text-align: left;}
+    </style>
+</head>
+<body>
+    <div style="background-color:yellow">
+        <h1 id="table-heading">TABLES AND LISTS</h1><br>
+        <table class="center" id="courseTable""width:50%">
+        <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>
+        <tr><td>1</td><td>ELAKKIYA</td><td>C++</td><td>CSE</td></tr>
+        <tr><td>2</td><td>SENTHILNATHAN</td><td>PYTHON</td><td>CSE</td></tr>
+        <tr><td>3</td><td>ANBAZHAHI</td><td>JAVA</td><td>CSE</td></tr>
+        <tr><td>4</td><td>NAVEEN</td><td>KOTLIN</td><td>CSE</td></tr>
+        <tr><td>5</td><td>PAGUTHARIVU</td>JAVA.NET<td>artificial intelligence</td><td>CSE</td></tr>
+        <tr><td>6</td><td>THAMIZH</td><td>HTML</td><td>CSE</td></tr>
+        </table><br>
+        <h2 id="courseHeading">No Of Courses Available</h2>
+        <ul id="courseList"><li>ADPP</li><li>ADJP</li><li>HTML</li><li>MYSQL</li><li>JAVA.NET</li></ul>
+    </div>
+        
+    <div style="background-color:lightgreen">
+        <h1 id="imageHeading">Image</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1ArK2UNkH7RAcGiSoJnWPMTxpzjPRYFIGQ&usqp=CAU" alt="Workplace" usemap="#workmap" width="400" height="379">
+    </div>
+        
+    <div style="background-color:lightgreen">
+        <h1>TO BE FILLED</h1>
+        <form id="login-form">
+        <label>Name :</label>
+        <input type="text" id="fname"><br>
+        <label>Password :</label>
+        <input type="text"><br>
+        <label>Email :</label>
+        <input type="text"><br>
+        <label for="courses">Courses :</label>
+        <select name="Courses" id="course">
+          <option value="ADPP">MECH</option>
+          <option value="ADJP">CSD</option>
+          <option value="MYSQL">ECE</option>
+          <option value="MS WORD">CSE</option>
+          <option value="PAINT">IT</option>
+        </select><br>
+        <label for="Address">Address :</label>
+        <br>
+        <label for="Country">Country :</label>
+        <input list="Countries" name="Countries" id="Country">
+        <datalist id="Countries">
+          <option value="India">
+          <option value="pakistan">
+          <option value="afghanistan">
+          <option value="Germany">
+          <option value="nepal">
+        </datalist><br>
+        <button id="submit_btn" type="submit" form="login-form" value="Submit">Submit</button>
+        </form>
+    </div>
+        
+    <div style="background-color:violet">
+        <h1 id="frameHeading">LINKS</h1><br>
+        <iframe id="frameImage1" src="https://www.w3schools.com/"></iframe>
+        <iframe id="frameImage2" src="https://www.youtube.com/hashtag/youtubelink"></iframe>
+    </div>
+</body>
+</html>
